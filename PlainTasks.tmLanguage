@@ -70,7 +70,7 @@
 
 		<dict>
 			<key>match</key>
-			<string>(?&lt;=\s)\@(?!today|completed|done)[\w\d\-!?]+\s*\n</string>
+			<string>(?&lt;=\s)\@(?!today|completed|done|due)[\w\d\-!?]+\s*</string>
 			<key>name</key>
 			<string>meta.tag.todo</string>
 		</dict>
@@ -94,6 +94,13 @@
 			<string>(?&lt;=\s)(\@done)[\(\)\d\.:\-/\s]*\s*\n</string>
 			<key>name</key>
 			<string>meta.tag.todo.completed</string>
+		</dict>
+
+		<dict>
+			<key>match</key>
+			<string>(?&lt;=\s)(\@due)[\(\)\d\.:\-/\s]*\s*\n</string>
+			<key>name</key>
+			<string>meta.tag.todo.due</string>
 		</dict>
 
 		<dict>

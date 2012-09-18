@@ -1,22 +1,27 @@
 {
   "open_tasks_bullet": "☐", // options: - | ❍ | ❑ | ■ | □ | ☐ | ▪ | ▫ | – | — ≡ → ›
-  "done_tasks_bullet": "✔", // options: + | ✓ | ✔
+  "done_tasks_bullet": "☑", // options: + | ✓ | ✔
   "date_format": "(%y-%m-%d %H:%M)",
-  "done_tag": true,
-  "color_scheme": "Packages/PlainTasks/tasks.hidden-tmTheme",
-  "font_size": 15,
-  "font_face": "Consolas",
+  "done_tag": false,
+  "color_scheme": "Packages/PlainTasksOF/tasks-OF.hidden-tmTheme",
+  "font_size": 13,
+  "wrap_width": 61,
+  "line_padding_top": 5,
+  "line_padding_bottom": 5,
+  "draw_centered": true,
+  "font_face": "Lucida Grande",
   "font_options": [ "subpixel_antialias", "no_round", "directwrite"],
-  "draw_indent_guides": false,
+  "draw_indent_guides": true,
   "line_numbers": false,
   "gutter": true,
   "margin": 2,
-  "tab_size": 2,
+  "tab_size": 4,
   "translate_tabs_to_spaces": true,
   "use_tab_stops": false,
   "match_brackets": false,
   "fold_buttons": true,
   "fade_fold_buttons": false,
+  "highlight_line": true,
   "extensions":
   [
     "TODO",
