@@ -1,12 +1,11 @@
-## PlainTasks
-An opinionated todo-list plugin for Sublime Text 2 editor
-![](http://f.cl.ly/items/2y2m3v1i0S2V1t2m2A0e/Screen%20Shot%202012-04-21%20at%2012.27.05%20AM.png)
+## PlainTasksOF
+Forked mod of [PlainTasks](https://github.com/aziz/PlainTasks), an opinionated todo-list plugin for Sublime Text 2, with OmniFocus Stylings
+![](http://f.cl.ly/items/093h2W1V450U183k3R2L/Screen%20Shot%202012-09-18%20at%203.29.27%20PM.PNG)
+
+This has only been tested on a Mac. For a much better, more universal experience, go check out [Allen Bargi's original PlainTasks](https://github.com/aziz/PlainTasks).
 
 ## Installation
-To install this plugin, you have two options:
-
-1. Clone source code to Sublime Text 2 packages folder, in Mac it is `~/Library/Application Support/Sublime Text 2/Packages`.
-2. If you have Package Control installed, simply search for `PlainTasks` to install.
+To install this plugin clone source code to Sublime Text 2 packages folder, in Mac it is `~/Library/Application Support/Sublime Text 2/Packages`.
 
 ## Start a new todo-list
 Bring up the command palette (it's `⌘ + shift + p`  in OS X and `ctrl + shift + p` in Windows) and type `task` and select `Tasks: New document` command. 
@@ -16,7 +15,9 @@ Bring up the command palette (it's `⌘ + shift + p`  in OS X and `ctrl + shift 
 ## Usage
 **NOTE:** In windows or Linux use `ctrl` instead of `⌘`
 
-☐ **`⌘ + enter` or `⌘ + i`**: new task
+☐ **`enter` or `⌘ + i`**: new task
+
+☐ **`⌘ + enter` or `return` on the numpad**: blank carriage return
 
 ☐ **`⌘ + d`**: toggle task as completed. You can also use your mouse to mark a task a completed. just hold down `⌘` (or `ctrl` if you're on Windows or Linux) and click the task. Clicking again will toggle the task back to the pending state.
 

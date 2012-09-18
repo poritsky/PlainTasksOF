@@ -6,10 +6,9 @@ Projects:
  ☐ You can fold projects (a built-in editor feature)
 
 Tasks:
-  You can write plain text as notes or descriptions wherever you want;
-  it's totally fine!
+  You can write plain text as notes or descriptions wherever you want; it's totally fine!
   New:
-   ☐ Press ⌘+enter (ctrl+enter on Windows) to add a new task.
+   ☐ Press enter (enter on Windows) to add a new task.
    ☐ You can also use ⌘+i (ctrl+i on Windows) to add new task
    ☐ If you're on a new line SublimeTasks will create a new task on the current line
    ☐ If you're on a line with a task pressing new task shortcut will add a task after it
