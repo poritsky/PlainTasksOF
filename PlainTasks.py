@@ -112,4 +112,4 @@ class ArchiveCommand(SublimeTasksBase):
 class NewTaskDocCommand(sublime_plugin.WindowCommand):
     def run(self):
         view = self.window.new_file()
-        view.set_syntax_file('Packages/PlainTasks/PlainTasks.tmLanguage')
+        view.set_syntax_file('Packages/PlainTasksOF/PlainTasks.tmLanguage')
